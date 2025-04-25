@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Cyber Fraud Awareness</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Cyber Fraud Awareness Portal</h1>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="types.html">Types</a>
+      <a href="cases.html">Case Studies</a>
+      <a href="tips.html">Prevention</a>
+      <a href="report.php">Report</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, need help, or want to report a cyber fraud incident, feel free to reach out!</p>
+    <form method="POST" action="contact.php">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your full name" />
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email address" />
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Cyber Awareness Portal. All rights reserved.</p>
+  </footer>
+</body>
+</html>
